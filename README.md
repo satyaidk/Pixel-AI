@@ -24,3 +24,5 @@ A retro-style pixel art chat interface for interacting with AI models, built wit
    ```bash
    npm install
 
+   
+Try Pixel AI : https://v0-pixel-ai-2.vercel.app/
