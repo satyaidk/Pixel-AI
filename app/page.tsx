@@ -172,7 +172,7 @@ export default function Home() {
             {messages.length === 0 ? (
               <div className="flex flex-col items-center justify-center h-full text-center">
                 <div className="pixel-art mb-4 w-16 h-16 bg-[#306850] dark:bg-[#8bac0f]"></div>
-                <p className="pixel-text text-[#306850] dark:text-[#8bac0f]">WELLCOME TO PIXEL AI</p>
+                <p className="pixel-text text-[#306850] dark:text-[#8bac0f]">WELL COME TO PIXEL AI</p>
                 <p className="pixel-text text-[#306850] dark:text-[#8bac0f] text-sm mt-2">❤️</p>
               </div>
             ) : (
