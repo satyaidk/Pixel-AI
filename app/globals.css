@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PixelFont";
+  src: url("/fonts/pixel.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.pixel-text {
+  font-family: "PixelFont", monospace;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  image-rendering: pixelated;
+}
+
+.pixel-art {
+  image-rendering: pixelated;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+/* Custom scrollbar for pixel art theme */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #9bbc0f;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #306850;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #306850;
+  border: 2px solid #9bbc0f;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #8bac0f;
+  border: 2px solid #306850;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0f380f;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #9bbc0f;
+}
+
