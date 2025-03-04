@@ -1,4 +1,4 @@
-# Pixel Art AI Chat Interface
+# Pixel AI Chat bot
 
 A retro-style pixel art chat interface for interacting with AI models, built with Next.js and OpenAI.
 
